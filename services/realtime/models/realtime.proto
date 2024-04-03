@@ -1,0 +1,14 @@
+syntax = "proto3";
+package realtime;
+
+service Ping {
+    rpc SayPing (PingMessage) returns (PongReply);
+}
+
+message PingMessage {
+    string msg = 1;
+}
+
+message PongReply {
+    string msg = 1;
+}
