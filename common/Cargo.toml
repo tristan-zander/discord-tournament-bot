@@ -11,6 +11,6 @@ reqwest = "^0.11"
 serde = "~1.0"
 tracing = "~0.1"
 tracing-subscriber = { version = "^0.3", features = ["json"] }
-dashmap = "^5"
+dashmap = "^6"
 anyhow = "~1.0"
 async-trait = "~0.1"
